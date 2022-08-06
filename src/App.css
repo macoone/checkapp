@@ -1,0 +1,95 @@
+.img{
+  position: absolute;
+ left: 300px;
+bottom: 250px;
+
+}
+.im{
+  border-radius: 50%;
+
+}
+.App{
+  /*height: 300px;
+  width: 700px;
+  background-color: #C0C0C0;
+  margin-top: 150px;
+  margin-left: 650px;
+  border-radius: 8px;*/
+  background-color: hsl(240,64%,27%);
+  height: 703.3px;
+  color: white;
+}
+
+.na{
+  position: absolute;
+  left:700px;
+  bottom: 450px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+.las{
+
+  position: absolute;
+  left:700px;
+  bottom: 400px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+.nas{
+  position: absolute;
+  left:800px;
+  bottom: 445px;
+}
+.last{
+  position: absolute;
+  left:865px;
+  bottom: 395px;
+}
+
+.pp{
+  position: absolute;
+  bottom: 355px;
+  left:700px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+.gmail{
+  position: absolute;
+  bottom:350px;
+  left:890px
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
